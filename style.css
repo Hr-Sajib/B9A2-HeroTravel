@@ -1,6 +1,9 @@
-body{
+main{
     width: 1170px;
-    margin: 40px auto;
+    margin: 40px auto 0 auto;
+}
+body{
+    margin: 0;
 }
 .commonText{
     color: var(--Dark-02, #424247);
@@ -21,7 +24,7 @@ body{
         display: flex;
     }
     header img{
-        width: 48px;
+        width: 51px;
         height: 52px;
         margin: auto 15px auto 0px;
     }
@@ -47,13 +50,15 @@ body{
     nav a{
         text-decoration: none;
     }
+    .spc{
+        color: #FF5400; 
+    }
     .home{
-        color: #FF5400;
+        color: #FF5400; 
         text-align: center;
         font-family: Mulish;
         font-size: 18px;
-        font-weight: 700;
-    }
+        font-weight: 700;}  
 
 /* Explore section */
 
@@ -348,41 +353,142 @@ body{
     font-weight: 800;
 }
 
-.sect_newslatter{
+
+/* newslatter */
+
+    .sect_newslatter{
     display: flex;
-    flex-direction: column;
     margin: 150px auto 0 auto;
-    width: 474px;
-    height: 422px;
-    border-radius: 16px;
-    border: 1px solid #FF5400;
+    gap: 24px;
+    }
+    .newsl_Container1{
+        display: flex;
+        flex-direction: column;
+        width: 474px;
+        height: 422px;
+        border-radius: 16px;
+        border: 1px solid #FF5400;
+    }
+    .sect_newslatter input {
+        width: 393px;
+        height: 52px;
+        border-radius: 8px;
+        border: 0;
+        background-color: rgba(19, 19, 24, 0.05);
+        margin: 20px auto 0px auto;
+    }
+    .sect_newslatter button{
+        width: 393px;
+        height: 52px;
+        flex-shrink: 0;
+        border-radius: 8px;
+        background: #FF5400;
+        color: #FFF;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        border: 0;
+        margin: 20px auto 0px auto;
+    }
+    .sect_newslatter hr{
+        width: 393px;
+        height: 1px;
+        background: rgba(19, 19, 24, 0.10);
+        border: 0;
+    }
+    .newslatter{
+        margin: 40px auto 0 40px;
+    }
+    .newslatterDetails{
+        margin: 16px 50px 16px 40px;
+        text-align: left;
+    }
+    .newsl_Container2{
+        background-image: url(images/Rectangle\ news.png);
+        background-repeat: no-repeat;
+        width: 672px;
+        height: 422px;
+    }
+    .discount{
+        background-color: #FF5400;
+        border-radius: 16px;
+        width: 324px;
+        height: 120px;
+        position: relative;
+        left:340px;
+        top: 245px;
+        transform: rotate(-20deg);
+        padding-top: 10px;
+    }
+    .disc_p1{
+        color: #FFF;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 24px;
+        font-weight: 400;
+        margin-bottom: 0;
+    }
+    .disc_p2{
+        color: #FFF;
+        font-family: Mulish;
+        font-size: 32px;
+        font-weight: 800;
+        text-align: center;
+        margin-top: 0;
+    }
+
+
+/* footer */
+
+    footer{
+        width: 100%;
+        height: 502px;
+        background: rgba(19, 19, 24, 0.05);
+        margin-bottom: 0;
+        margin-top: 100px;
+    }
+
+    footer h3{
+        color: #131318;
+        font-family: 'Mulish';
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+    footer img{
+        width: 45px;
+        height: 46px;
+        margin: auto 10px auto 0px;
+    }
+    .foot_iconContainer{
+        display: flex;
+        justify-content: center;
+        padding-top: 110px;
+    }
+    footer p{
+        margin: auto 335px auto 334px;
+    }
+    .socials img{
+        width: 35px;
+        height: 35px;
+    }
+    .socials{
+       display: flex;
+       justify-content: center;
+       margin-top: 50px;
+    }
+.footerHRLine{
+    width: 872px;
+    margin: 50px auto;
 }
-.sect_newslatter input {
-    width: 393px;
-    height: 52px;
-    border-radius: 8px;
-    border: 0;
-    background-color: rgba(19, 19, 24, 0.05);
-    margin: 0px 0 20px 0;
-}
-.sect_newslatter button{
-    width: 393px;
-    height: 52px;
-    flex-shrink: 0;
-    border-radius: 8px;
-    background: #FF5400;
-    color: #FFF;
+.rights{
+    color: #131318;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 300;
     text-align: center;
-    font-family: Mulish;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-    border: 0;
-}
-.sect_newslatter hr{
-    width: 393px;
-    height: 1px;
-    background: rgba(19, 19, 24, 0.10);
-    border: 0;
 }
