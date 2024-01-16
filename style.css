@@ -1,0 +1,388 @@
+body{
+    width: 1170px;
+    margin: 40px auto;
+}
+.commonText{
+    color: var(--Dark-02, #424247);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* header section */
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 0;
+    }
+    .iconContainer{
+        display: flex;
+    }
+    header img{
+        width: 48px;
+        height: 52px;
+        margin: auto 15px auto 0px;
+    }
+    nav{
+        display: flex;
+    }
+
+    header h3{
+        color: #131318;
+        font-family: 'Mulish';
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+    nav ul{
+        list-style: none;
+        display: flex;
+        width: 505px;
+        display: flex;
+        justify-content: space-between;
+    }
+    nav a{
+        text-decoration: none;
+    }
+    .home{
+        color: #FF5400;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+/* Explore section */
+
+    .sect_explore{
+        width: 1170px;
+        height: 500px;
+        background-image: url(images/Group\ 13.png), linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+        background-blend-mode: overlay;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        border-radius: 16px;
+        margin-top: 20px;
+        padding-top:106px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .explore{
+        color: #FFF;
+        font-family: Mulish;
+        font-size: 64px;
+        font-weight: 800;
+        text-align: center;
+        margin: 30px auto 40px auto;
+    }
+    .exploreDetails{
+        width: 675px;
+        color: #FFF;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px; 
+        margin:0 auto;
+    }
+    .findNow{
+        width: 800px;
+        height: 84px;
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.30);
+        margin: 60px auto;
+        display: flex;
+        justify-content: space-around;
+    }
+    .findNowInput{
+        width: 176px;
+        height: 52px;
+        background-color: #FFF;
+        border-radius: 8px;
+        margin: auto 0px;
+        border: 0;
+        color: rgba(19, 19, 24, 0.50);
+        text-align: left;
+        font-family: Mulish;
+        font-size: 16px;
+        font-weight: 400;
+        padding-left: 20px;
+        padding-right: 20px;
+        box-sizing: border-box;
+
+    }
+    .gg-search {
+        color: #FFF;
+        box-sizing: border-box;
+        position: relative;
+        display: block;
+        transform: scale(var(--ggs,1));
+        width: 16px;
+        height: 16px;
+        border: 2px solid;
+        border-radius: 100%;
+        margin-left: -4px;
+    }
+    .findButton{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding-right: 30px;
+        padding-left: 30px;
+        background-color: #FF5400;
+    }
+    .findButton p{
+        color: #FFF;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    ::placeholder{
+        color: rgba(19, 19, 24, 0.50);
+        text-align: left;
+        font-family: Mulish;
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+
+/* Our Popular Tours section */
+    .sect_popular_tours{
+    margin: 100px auto; 
+    display: flex;
+    }
+    .ourPopularTours{
+        color: #131318;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+   .description p,.description li{
+     text-align: left;
+   }
+   .sect_popular_tours img{
+    width: 540px;
+    height: 550px;
+    border-radius: 16px;
+    margin-left: 50px;
+   }
+   .description button{
+    width: 174px;
+    height: 52px;
+    background-color: #FF5400;
+    border-radius: 8px;
+    border: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 10px;
+   }
+
+/* choose destination section */
+   .chooseYourDest{
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+    margin: 150px auto 0 auto;
+   }
+   .row1{
+    display: flex;
+    width: 1170px;
+    justify-content: space-between;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+    margin-top: 50px;
+   }
+   .maldives{
+    background-image: url(images/Rectangle\ 5.png);
+    width: 573px;
+    height: 300px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   .indonesia{
+    background-image: url(images/Rectangle\ 8.png);
+    width: 573px;
+    height: 300px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   .row2{
+    display: flex;
+    width: 1170px;
+    justify-content: space-between;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+    margin-top: 22px;
+   }
+   .srilanka{
+    background-image: url(images/Rectangle\ 6.png);
+    width: 374px;
+    height: 286px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   .northamerica{
+    background-image: url(images/Rectangle\ 7.png);
+    width: 474px;
+    height: 286px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+  .kashmir{
+    background-image: url(images/Rectangle\ 9.png);
+    width: 274px;
+    height: 286px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .row3{
+    display: flex;
+    width: 1170px;
+    justify-content: space-between;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+    margin-top: 22px;
+   }
+   .bangladesh{
+    background-image: url(images/Rectangle\ 11.png);
+    width: 473px;
+    height: 286px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+   .bandarban{
+    background-image: url(images/Rectangle\ 10.png);
+    width: 673px;
+    height: 286px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+/* why choose us section */
+
+.whychoose{
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 150px;
+}
+.line1{
+    display: flex;
+    gap: 22px;
+    margin-top: 25px;
+}
+.hotels{
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 180, 99, 0.662);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 40px;
+}
+.services{
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(38, 200, 240, 0.557);
+    background: rgba(41, 206, 246, 0.05);
+    padding: 40px;
+}
+.line2_price{
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.342);
+    background: rgba(233, 68, 68, 0.05);
+    margin: 22px auto 0 auto;
+    padding: 40px;
+}
+.sect_whyChooseUs img{
+    width: 64px;
+    height: 64px;
+}
+.commontext2{
+    color: #131318;
+    text-align: left;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.sect_newslatter{
+    display: flex;
+    flex-direction: column;
+    margin: 150px auto 0 auto;
+    width: 474px;
+    height: 422px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+}
+.sect_newslatter input {
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    border: 0;
+    background-color: rgba(19, 19, 24, 0.05);
+    margin: 0px 0 20px 0;
+}
+.sect_newslatter button{
+    width: 393px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    border: 0;
+}
+.sect_newslatter hr{
+    width: 393px;
+    height: 1px;
+    background: rgba(19, 19, 24, 0.10);
+    border: 0;
+}
