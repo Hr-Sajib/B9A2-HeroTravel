@@ -576,9 +576,18 @@ body{
     position: relative;
     bottom: 320px;
     left: -150px;
+    animation: rotate 10s linear infinite;
 }
 ._100txt{
     position: relative;
     top: -420px;
 }
 
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

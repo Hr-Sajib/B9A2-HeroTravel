@@ -1,7 +1,10 @@
 @media screen and (max-width: 600px){
     main{
         width: 600px;
-        margin: 40px auto 0 auto;
+        margin:30px auto 0 auto;
+        position: relative;
+        left: 30px;
+
     }
     body{
         margin: 0;
@@ -200,9 +203,9 @@
     top: -200px;
 }
 .stylebox{
-    width: 540px;
+    width: 510px;
     position: relative;
-    right: 25px;
+    right: 32px;
     bottom: 370px;
 }
 .stylebox img{
@@ -210,18 +213,28 @@
     height: fit-content;
     position: relative;
     bottom: -142px;
-    left: 307px;
+    left: 295px;
+    margin-right: 0;
 }
+
 ._100free{
     width: 120px;
     height: fit-content;
     position: relative;
     bottom: 320px;
     left: 250px;
+    margin-right: 0;
 }
 ._100txt{
     position: relative;
     top: -320px;
     left: 35px;
 }
+footer{
+    width: 100%;
+    background: none;
+    position: relative;
+    left: 30px;
+}
+
 }
