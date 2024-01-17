@@ -68,7 +68,7 @@ body{
     .sect_explore{
         width: 1170px;
         height: 500px;
-        background-image: url(images/Group\ 13.png), linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+        background-image: url(Images/Group\ 13.png), linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
         background-blend-mode: overlay;
         background-repeat: no-repeat;
         background-size: 100% 100%;
@@ -215,7 +215,7 @@ body{
     margin-top: 50px;
    }
    .maldives{
-    background-image: url(images/Rectangle\ 5.png);
+    background-image: url(Images/Rectangle\ 5.png);
     width: 573px;
     height: 300px;
     border-radius: 16px;
@@ -224,7 +224,7 @@ body{
     align-items: center;
    }
    .indonesia{
-    background-image: url(images/Rectangle\ 8.png);
+    background-image: url(Images/Rectangle\ 8.png);
     width: 573px;
     height: 300px;
     border-radius: 16px;
@@ -244,7 +244,7 @@ body{
     margin-top: 22px;
    }
    .srilanka{
-    background-image: url(images/Rectangle\ 6.png);
+    background-image: url(Images/Rectangle\ 6.png);
     width: 374px;
     height: 286px;
     border-radius: 16px;
@@ -253,7 +253,7 @@ body{
     align-items: center;
    }
    .northamerica{
-    background-image: url(images/Rectangle\ 7.png);
+    background-image: url(Images/Rectangle\ 7.png);
     width: 474px;
     height: 286px;
     border-radius: 16px;
@@ -262,7 +262,7 @@ body{
     align-items: center;
    }
   .kashmir{
-    background-image: url(images/Rectangle\ 9.png);
+    background-image: url(Images/Rectangle\ 9.png);
     width: 274px;
     height: 286px;
     border-radius: 16px;
@@ -282,7 +282,7 @@ body{
     margin-top: 22px;
    }
    .bangladesh{
-    background-image: url(images/Rectangle\ 11.png);
+    background-image: url(Images/Rectangle\ 11.png);
     width: 473px;
     height: 286px;
     border-radius: 16px;
@@ -291,7 +291,7 @@ body{
     align-items: center;
   }
    .bandarban{
-    background-image: url(images/Rectangle\ 10.png);
+    background-image: url(Images/Rectangle\ 10.png);
     width: 673px;
     height: 286px;
     border-radius: 16px;
@@ -406,7 +406,7 @@ body{
         text-align: left;
     }
     .newsl_Container2{
-        background-image: url(images/Rectangle\ news.png);
+        background-image: url(Images/Rectangle\ news.png);
         background-repeat: no-repeat;
         width: 672px;
         height: 422px;
