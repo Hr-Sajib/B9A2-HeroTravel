@@ -321,7 +321,7 @@ body{
     border-radius: 16px;
     border: 1px solid rgba(251, 180, 99, 0.662);
     background: rgba(251, 181, 99, 0.05);
-    padding: 0px;
+    padding: 40px;
 }
 .services{
     width: 573px;
@@ -491,3 +491,94 @@ body{
     font-weight: 300;
     text-align: center;
 }
+
+
+/* Dubai section */
+.sect_DubaiTour{
+    width: 1170px;
+    height: 800px;
+    background: linear-gradient(to bottom, #fbfaf938, #f0d399a4);
+    border: 2px solid rgb(247, 155, 7);
+    margin: 150px auto 0 auto;
+    border-radius: 16px;
+ }
+ 
+.offerImg{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 900px;
+    top: -60px;
+    
+}
+.dubaiTitle{
+    position: relative;
+    bottom: 120px;
+    margin-left: 50px;
+    top: -50px;
+}
+.dubai{
+    font-size: 40px;
+    color: #FF5400;
+}
+.dubaiImg{
+    width: 400px;
+    height: 550px;
+    position: relative;
+    top: -20px;
+    left: 50px;
+    border-radius: 16px;
+    border: 1px solid rgb(9, 6, 2);
+}
+.dubaiContainer2{
+    display: flex;
+    gap: 300px;
+}
+.form input{
+    width: 400px;
+    height: 52px;
+    margin-bottom: 20px;
+    border-radius: 16px;
+    border: 0;
+    padding-left: 20px;
+}
+.submitbutton{
+    height: 52px;
+    width: 100px;
+    background-color: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 700;
+    border: 0;
+    border-radius: 10px;
+}
+.stylebox{
+    width: 600px;
+    height: 400px;
+    border: 2px solid rgb(15, 11, 245);
+    position: relative;
+    right: 100px;
+    bottom: 370px;
+    border-radius: 16px;
+}
+.stylebox img{
+    width: 400px;
+    height: fit-content;
+    position: relative;
+    bottom: -2px;
+    left: 232px;
+}
+._100free{
+    width: 120px;
+    height: fit-content;
+    position: relative;
+    bottom: 320px;
+    left: -150px;
+}
+._100txt{
+    position: relative;
+    top: -420px;
+}
+
