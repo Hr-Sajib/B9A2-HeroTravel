@@ -1,144 +1,145 @@
-@media screen and (max-width: 576px){
+@media screen and (max-width: 600px){
+    main{
+        width: 600px;
+        margin: 40px auto 0 auto;
+    }
+    body{
+        margin: 0;
+    }
+ 
 
-    header{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        margin-bottom: 0;
-    }
-    .iconContainer{
-        display: flex;
-    }
-    header img{
-        width: 1px;
-        height: .5rem;
-        margin: auto 15px auto 0px;
-    }
-    nav{
-        display: flex;
-    }
+
+
 
     header h3{
-        color: #131318;
-        font-family: 'Mulish';
-        font-size: 36px;
-        font-style: normal;
-        font-weight: 800;
-        line-height: normal;
-    }
-    nav ul{
-        list-style: none;
-        display: flex;
-        width: 505px;
-        display: flex;
-        justify-content: space-between;
-    }
-    nav a{
-        text-decoration: none;
-    }
-    .home{
-        color: #FF5400;
-        text-align: center;
-        font-family: Mulish;
-        font-size: 18px;
-        font-weight: 700;
+        font-size: 22px;
     }
 
-/* Explore section */
-
+    nav{
+        display: none;
+    }
+    .iconContainer{
+        margin-left: 30px;
+        margin-right: 0px;
+    }
+    ._3line{
+        display: inline-block;
+       margin-left: 240px;
+    }
     .sect_explore{
-        width: 1170px;
-        height: 500px;
-        background-image: url(images/Group\ 13.png), linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
-        background-blend-mode: overlay;
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
-        border-radius: 16px;
-        margin-top: 20px;
-        padding-top:106px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        width: 550px;
+        margin:20px auto 0 auto;
     }
     .explore{
-        color: #FFF;
-        font-family: Mulish;
-        font-size: 64px;
-        font-weight: 800;
-        text-align: center;
-        margin: 30px auto 40px auto;
+        font-size: 22px;
+        margin: 0px auto 20px auto;
     }
     .exploreDetails{
-        width: 675px;
-        color: #FFF;
-        text-align: center;
-        font-family: Mulish;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 26px; 
-        margin:0 auto;
+        width: 305px;
     }
     .findNow{
-        width: 800px;
-        height: 84px;
-        border-radius: 8px;
-        background: rgba(255, 255, 255, 0.30);
-        margin: 60px auto;
-        display: flex;
-        justify-content: space-around;
+        width: 300px;
+        height: 300px;
+        margin: 30px auto;
+        flex-direction: column;
     }
     .findNowInput{
-        width: 176px;
-        height: 52px;
-        background-color: #FFF;
-        border-radius: 8px;
-        margin: auto 0px;
-        border: 0;
-        color: rgba(19, 19, 24, 0.50);
-        text-align: left;
-        font-family: Mulish;
-        font-size: 16px;
-        font-weight: 400;
-        padding-left: 20px;
-        padding-right: 20px;
-        box-sizing: border-box;
-
+        width: 255px;
+        margin: 0px auto;
     }
     .gg-search {
-        color: #FFF;
-        box-sizing: border-box;
-        position: relative;
-        display: block;
-        transform: scale(var(--ggs,1));
-        width: 16px;
-        height: 16px;
-        border: 2px solid;
-        border-radius: 100%;
-        margin-left: -4px;
-    }
-    .findButton{
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        padding-right: 30px;
-        padding-left: 30px;
-        background-color: #FF5400;
+        margin-right: 0;
     }
     .findButton p{
-        color: #FFF;
+        position: relative;
+        right: 30px;
+    }
+    .sect_popular_tours{
+        width: 550px;
+        margin: 50px auto; 
+        flex-direction: column;
+    }
+    .ourPopularTours{
+        font-size: 22px;
+        font-weight: 800;
+    }
+    .exploreDetails{
+        text-align: justify;
+    }
+    .sect_popular_tours img{
+        width: 550px;
+        height: 550px;
+        border-radius: 16px;
+        margin: 30px auto;
+    }
+    .chooseYourDest{
+        font-size: 20px;
+        margin: 100px auto 0 auto;
+    }
+    .chooseYourDestDetails{
+        width: 550px;
+        margin: 0 auto;
+    }
+    .row1,.row2,.row3{
+        width: 550px;
+        flex-direction: column;
+        margin: 0px auto 0 auto;
+    }
+    .maldives,.indonesia,.srilanka,.northamerica,.kashmir,.bangladesh,.bandarban{
+        width: 550px;
+        margin: 20px auto;
+    }
+    .srilanka,.northamerica,.kashmir,.bangladesh,.bandarban{
+        background-size: cover;
+    }
+
+
+
+
+    .whychoose{
+        font-size: 20px;
+        margin-top: 100px;
+    }
+    .sect_choose_your_dest>.commonText{
+        width: 550px;
         text-align: center;
-        font-family: Mulish;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
+        margin: 0 auto;
     }
-    ::placeholder{
-        color: rgba(19, 19, 24, 0.50);
-        text-align: left;
-        font-family: Mulish;
-        font-size: 16px;
-        font-weight: 400;
+    .line1{
+        flex-direction: column;
+        gap: 20px;
     }
+    .hotels, .services,.line2_price{
+        width: 550px;
+        height: 400px;
+        padding: 40px;
+        margin: 0 auto;
+        box-sizing: border-box;
+    }
+    .line2_price{
+        margin-top: 20px;
+    }
+
+
+
+    .sect_newslatter{
+        flex-direction: column;        
+        margin: 150px auto 0 auto;
+        gap: 20px;
+    }
+        .newsl_Container1{
+            width: 550px;
+            margin: 0 auto;
+        }
+        .newsl_Container2{
+            width: 550px;
+            margin: 0 auto;
+            border-radius: 16px;
+        }
+        .discount{
+            left:220px;
+            top: 247px;
+        }
+    
 
 }
