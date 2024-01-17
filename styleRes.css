@@ -3,7 +3,7 @@
         width: 600px;
         margin:30px auto 0 auto;
         position: relative;
-        left: 30px;
+        left: 45px;
 
     }
     body{
@@ -234,7 +234,16 @@ footer{
     width: 100%;
     background: none;
     position: relative;
-    left: 30px;
+    left: 45px;
+}
+ 
+.offerImg{
+    width: 80px;
+    height: fit-content;
+    position: relative;
+    left: 440px;
+    top: -40px;
+    
 }
 
 }
